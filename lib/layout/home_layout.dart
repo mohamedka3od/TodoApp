@@ -120,7 +120,7 @@ class HomeLayout extends StatelessWidget {
                                       context: context,
                                       initialDate: DateTime.now(),
                                       firstDate: DateTime.now(),
-                                      lastDate: DateTime.parse('2021-12-28')).then(
+                                      lastDate: DateTime.now().add(const Duration(days: 365*100))).then(
                                           (value) {
                                         if(value!=null) {
                                           dateController.text = DateFormat.yMMMd().format(value);

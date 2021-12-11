@@ -38,7 +38,7 @@ Widget defaultFormField({
 
 /////////////////TaskItem/////////////////////
 Widget buildTaskItem(Map model, context) => Dismissible(
-      key: Key(model['id'].toString()),
+      key: UniqueKey(),
       onDismissed: (direction) {
         if(direction==DismissDirection.startToEnd ) {
           if(model['status']=='new' || model['status']=='archive') {

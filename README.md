@@ -1,6 +1,6 @@
 # todoapp
 
-A new Flutter project.<\br>
+A new Flutter project.
 
 
 https://user-images.githubusercontent.com/76262148/145659039-661ee96c-424a-4feb-80f6-75f131d36e12.mp4
